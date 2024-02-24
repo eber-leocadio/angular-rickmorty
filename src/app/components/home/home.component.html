@@ -1,0 +1,15 @@
+
+  <div class="d-flex justify-content-center mt-3 mp-5">
+    <img src="../../../assets/images/title.png" alt="">
+  </div>
+
+  <div class="row mt-4">
+    <div class="col-4 my-4" *ngFor="let char of character">
+      <app-card [data]="char"></app-card>
+    </div>
+  </div>
+
+  <div class="d-flex justify-content-center">
+    <button *ngIf="prev" type="button" class="btn btn-secondary btn-sm m-5" (click)="get(prev)" ><i class="fa-solid fa-backward"></i></button>
+    <button *ngIf="next" type="button" class="btn btn-primary btn-sm m-5" (click)="get(next)"><i class="fa-solid fa-forward"></i></button>
+  </div>

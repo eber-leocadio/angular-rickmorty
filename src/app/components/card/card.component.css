@@ -1,0 +1,20 @@
+.fundo{
+  background-image: url(../../../assets/images/portal.jpg);
+  background-position-x: center;
+  background-size: 100%;
+}
+
+.bordi {
+  border:0;
+  border-radius: 2%;
+}
+
+.trans {
+  opacity: 77%;
+}
+
+.title {
+  color: #000000;
+  border: 2px #fff;
+  size: 1.3rem;
+}

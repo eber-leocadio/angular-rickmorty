@@ -1,0 +1,12 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(./assets/images/5532919.jpg);
+}
+
+.trans {
+  opacity: 75%;
+}

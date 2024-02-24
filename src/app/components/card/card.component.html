@@ -1,0 +1,30 @@
+  <div class="card shadow p-3 mb-5 bg-white bordi m-auto fundo" style="width: 22rem;">
+    <img class="card-img-top m-auto p-3" style="width: 16rem;" src="{{data.image}}" alt="Card image cap" >
+    <div class="card-body">
+      <h5 class="card-title title">#{{data.id}}    {{data.name}}</h5>
+      <ul class="list-group list-group-flush trans">
+        <li class="list-group-item">
+          <span class="font-weight-bold col-4">Species:</span>
+          <span class="text-monospace col-8">{{data.species}}</span>
+        </li>
+        <li class="list-group-item">
+          <span class="font-weight-bold col-4">Gender:</span>
+          <span class="text-monospace col-8">{{data.gender}}</span>
+        </li>
+        <li class="list-group-item">
+          <span class="font-weight-bold col-4">Status:</span>
+
+          <span class=" col-6"><i class="{{data.iconStatus}}"></i> {{data.status}}</span>
+        </li>
+        <li class="list-group-item">
+          <span class="font-weight-bold col-4">Type:</span>
+          <span class="text-monospace col-8">{{data.type}}</span>
+        </li>
+        <li class="list-group-item">
+          <span class="font-weight-bold col-4">Origin:</span>
+          <span class="text-monospace col-8">{{data.origin}}</span>
+        </li>
+
+      </ul>
+    </div>
+  </div>
